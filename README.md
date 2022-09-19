@@ -14,7 +14,7 @@ Compilado de cursos sobre a linguagem JavaScript, pegando de várias fontes como
 
 ### Links das páginas ativas
 
-Segue abaixo todos os links dos desafios para a página ativa do projeto com o GitPages:
+Segue abaixo todos os links dos exercicios/desafios para a página ativa do projeto com o GitPages:
 
 <!-- [Desafio - Recriando a página inicial do Instagram](https://gustavoferreiradeveloper.github.io/instagram-dio-master/) </br>
 [Desafio - Contador](https://gustavoferreiradeveloper.github.io/contador.javascript/) </br>
