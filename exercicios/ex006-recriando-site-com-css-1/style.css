@@ -1,0 +1,34 @@
+:root{
+    --main-bg-color:#2C3E50;
+    --title-or-bg-title:#F1C40F;
+    --emphasis:#E74C3C;
+    --black:#000000;
+    --white:#FFFFFF;
+}
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+section{
+    color: var(--white);
+}
+
+h1{
+    color: var(--white);
+}
+
+h2{
+    color: var(--black);
+    background-color: var(--title-or-bg-title);
+    border: 2px solid var(--black);
+}
+
+h3{
+    color: var(--title-or-bg-title);
+}
+
+#astronomy-class{
+    color: var(--emphasis);
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color:#FFFAFA;
+    --date-color:#008080;
+    --black:#000000;
+    --white:#FFFFFF;
+}
+
+body{
+    margin: 0;
+}
+
+main.post-container{
+    width: 70%;
+    height: 100%;
+    background-color: var(--bg-color);
+    margin: 0 auto;
+}
+
+.post-container .date{
+    color:var(--date-color);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+section.post{
+    padding: 20px 50px;
+}
+
+.post-content{
+    
+    font-family: 'Open Sans';
+    font-weight: normal;
+    margin-top: 20px;
+}
