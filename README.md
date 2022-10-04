@@ -5,7 +5,7 @@ Repositório para aplicação de exercícios e desafios do curso Full Stack da O
 ## Índice
 
 1- [Meus Certificados](certificados/) </br>
-2-[Minhas anotações](anotacoes/) </br>
+2- [Minhas anotações](anotacoes/) </br>
 3- [Meus Exercícios](exercicios/) </br>
 4- [Meus Desafios](desafios/) </br>
 5- [Desafios em JavaScript](desafios/javascript/)</br>
