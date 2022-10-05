@@ -13,13 +13,40 @@
 .container{
     background-color: var(--dark-gray);
     min-height: 100vh;
+    display: flex;
+    gap: 0 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
 }
 
 .item{
     width: 200px;
-    height: 200px;
+    height: 70px;
     border: 2px solid var(--black);
     background-color: var(--white);
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.item1{
+    order: 2;
+    align-self: flex-start;
+}
+
+.item2{
+    order: 3;
+}
+
+.item3{
+    order: 1;
+}
+
+@media (max-width:390px){
+    .item2{
+        flex: 1 0 620px;
+    }
+}
