@@ -16,10 +16,8 @@
 }
 
 .item{
-    width: 200px;
-    height: 200px;
     border: 2px solid var(--black);
     background-color: var(--white);
-    font-size: 20px;
+    font-size: 30px;
 }
 
