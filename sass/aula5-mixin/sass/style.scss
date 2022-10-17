@@ -1,0 +1,19 @@
+// Import de cores
+@import "colors/colors.scss";
+
+// Import de Fontes e tamanhos
+@import "fonts/fonts.scss";
+
+@mixin text-style($color, $font-size, $font-family) {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+.texts {
+  h1 {
+    @include text-style($primary-color, $size-one, $family-font-one);
+  }
+  p {
+    @include text-style($secundary-color, $size-two, $family-font-two);
+  }
+}
