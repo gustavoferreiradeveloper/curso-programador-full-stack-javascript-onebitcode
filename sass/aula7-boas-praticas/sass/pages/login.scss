@@ -1,0 +1,5 @@
+.container {
+  p {
+    @include text-style($color-text-login, 22px, $font-text, bold);
+  }
+}

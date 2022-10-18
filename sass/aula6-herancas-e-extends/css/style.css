@@ -1,0 +1,31 @@
+.btn, .btn-red, .btn-purple {
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn.btn-yellow, .btn-yellow.btn-red, .btn-yellow.btn-purple {
+  background-color: #f5e101;
+}
+.btn.btn-blue, .btn-blue.btn-red, .btn-blue.btn-purple {
+  background-color: #0062ff;
+  color: #ffffff;
+}
+.btn:hover, .btn-red:hover, .btn-purple:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn-purple {
+  background-color: #800080;
+  color: #ffffff;
+}
+
+.btn-red {
+  background-color: #dc0000;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

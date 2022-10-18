@@ -1,0 +1,39 @@
+@import "colors/colors.scss";
+
+//Heranças
+.btn {
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+
+  &.btn-yellow {
+    background-color: $yellow-button;
+  }
+
+  &.btn-blue {
+    background-color: $blue-button;
+    color: $white-color;
+  }
+
+  &:hover {
+    background-color: #000000;
+    color: $white-color;
+  }
+}
+
+//Extends
+
+.btn-purple {
+  @extend .btn;
+  background-color: $purple-button;
+  color: $white-color;
+}
+
+.btn-red {
+  @extend .btn;
+  background-color: $red-button;
+  color: $white-color;
+}
