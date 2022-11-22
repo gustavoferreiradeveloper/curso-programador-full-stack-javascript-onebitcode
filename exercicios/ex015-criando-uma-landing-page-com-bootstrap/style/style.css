@@ -31,8 +31,40 @@ p {
 }
 
 .btnSuccess {
-  color: #ff0043;
   border: 1px solid #ff0043;
+}
+.btnSuccess:hover {
+  background-color: #ff0043;
+  border: 1px solid #ff0043;
+}
+.btnSuccess a {
+  text-decoration: none;
+  color: #ff0043;
+}
+.btnSuccess a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 350px;
+  }
+}
+@media (max-width: 517px) {
+  .form-body {
+    width: 350px;
+  }
+  .footer {
+    width: 250px;
+  }
+}
+@media (max-width: 390px) {
+  .form-body {
+    width: 300px;
+  }
+  .footer {
+    width: 200px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
