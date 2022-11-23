@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
 }
 
 body {
@@ -10,39 +9,35 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
+  color: #ffffff;
 }
 
 .form-body {
   background-color: rgba(19, 18, 18, 0.9450980392);
   width: 450px;
   height: auto;
+  border-radius: 10px;
 }
 
 .top-logo {
   width: 180px;
 }
 
-p {
-  color: #ffffff;
-}
-
 .form-check-input {
   cursor: pointer;
 }
 
-.btnSuccess {
-  border: 1px solid #ff0043;
-}
-.btnSuccess:hover {
-  background-color: #ff0043;
-  border: 1px solid #ff0043;
-}
-.btnSuccess a {
+a {
   text-decoration: none;
   color: #ff0043;
 }
-.btnSuccess a:hover {
-  color: #ffffff;
+a .btnSuccess {
+  border: 1px solid #ff0043;
+  color: #ff0043;
+}
+a .btnSuccess:hover {
+  background-color: #ff0043;
+  border: 1px solid #ff0043;
 }
 
 @media (max-width: 768px) {
