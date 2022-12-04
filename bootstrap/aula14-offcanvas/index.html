@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>Offcanvas</title>
+  </head>
+  <body>
+    <div class="container">
+      <a
+        class="btn btn-danger mt-5"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        Offcanvas lateral
+      </a>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Offcanvas Lateral
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            id ut vero rerum accusantium corrupti, molestiae dolore similique
+            voluptatum explicabo.
+          </div>
+          <div class="dropdown mt-3">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+            >
+              Clique aqui para ver mais
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <button
+        class="btn btn-warning"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasTop"
+        aria-controls="offcanvasTop"
+      >
+        Offcanvas do topo 1
+      </button>
+      <div
+        class="offcanvas offcanvas-top"
+        tabindex="-1"
+        id="offcanvasTop"
+        aria-labelledby="offcanvasTopLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 id="offcanvasTopLabel">Offcanvas do Topo via botão</h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
+          perferendis eos labore ex soluta culpa ad iusto delectus optio fugit.]
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <a
+        class="btn btn-success"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasTop2"
+        role="button"
+        aria-controls="offcanvasTop2"
+      >
+        Offcanvas do Topo 2
+      </a>
+      <div
+        class="offcanvas offcanvas-top"
+        tabindex="-1"
+        id="offcanvasTop2"
+        aria-labelledby="offcanvasTopLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 id="offcanvasTopLabel">Offcanvas Topo via link</h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
+          perferendis eos labore ex soluta culpa ad iusto delectus optio fugit.]
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
