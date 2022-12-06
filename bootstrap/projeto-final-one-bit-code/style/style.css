@@ -1,0 +1,34 @@
+/* Common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../images/home/01.jpg) no-repeat;
+  background-size: cover;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.navbar-pc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
