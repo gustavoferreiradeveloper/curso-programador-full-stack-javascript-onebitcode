@@ -1,3 +1,17 @@
-/* Common */
-@import "others/common.scss";
-@import "others/colors.scss";
+/* Import das fontes */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+
+/* Variáveis */
+@import "./common-elements/variables.scss";
+
+/* Elementos comuns */
+@import "./common-elements/common.scss";
+
+/* Elementos da Home */
+@import "./pages/home.scss";
+
+/* Elementos da Falcon 9 */
+@import "./pages/falcon.scss";
+
+/* Elementos da Human Space Fly */
+@import "./pages/human-space.scss";

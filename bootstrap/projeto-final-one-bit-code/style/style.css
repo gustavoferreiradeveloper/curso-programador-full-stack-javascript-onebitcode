@@ -1,34 +1,127 @@
-/* Common */
+@charset "UTF-8";
+/* Import das fontes */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+/* Variáveis */
+/* Atributos globais */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  color: #ffffff;
 }
 
-body {
-  background: url(../images/home/01.jpg) no-repeat;
-  background-size: cover;
-}
-
+/* Elementos comuns */
 .header {
   font-size: 12px;
   font-weight: bold;
 }
+.header #navItem:hover {
+  color: #b9b9b9;
+}
 
-.navbar-pc {
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrow-down {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logo-pc {
   width: 240px;
   margin-left: -10px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
-.container-fluid {
+#button {
+  padding: 15px 35px;
+}
+
+.footer {
+  background-color: #000000;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copy-gf {
+  color: #555252;
 }
 
-.nav-link {
-  text-transform: uppercase;
+/* Media Query */
+@media (max-width: 405px) {
+  .logo-pc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
 }
+@media (max-width: 350px) {
+  .logo-pc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+/* Elementos da Home */
+.container00.container01 {
+  background-image: url(../../images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home/02.jpg);
+}
+.container00.container03 {
+  background-image: url(../../images/home/03.gif);
+}
+.container00.container04 {
+  background-image: url(../../images/home/04.jpg);
+}
+
+.title-padding {
+  padding-top: 200px;
+}
+
+.short-title {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.medium-title {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+/* Media Query */
+@media (max-width: 750px) {
+  .title-padding {
+    padding-top: 120px;
+  }
+  .short-title,
+  .medium-title {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .short-title,
+  .medium-title {
+    width: auto;
+    font-size: 40px;
+  }
+}
+/* Elementos da Falcon 9 */
+/* Elementos da Human Space Fly */
 
 /*# sourceMappingURL=style.css.map */
