@@ -24,21 +24,23 @@ const poderDeDefesa = parseFloat(
 
 const escudo = prompt("Ele possui escudo? (S / N)");
 
-if (escudo === "n" || escudo === "N") {
-  if (poderDeAtaque > poderDeDefesa) {
-    dano = poderDeAtaque - poderDeDefesa;
-  }
-} else if (escudo === "s" || escudo === "S") {
-  if (poderDeAtaque > poderDeDefesa) {
-    dano = (poderDeAtaque - poderDeDefesa) / 2;
-  }
+if ((poderDeAtaque > poderDeDefesa && escudo === "n") || escudo === "N") {
+  dano = poderDeAtaque - poderDeDefesa;
+} else if (
+  (poderDeAtaque > poderDeDefesa && escudo === "s") ||
+  escudo === "S"
+) {
+  dano = (poderDeAtaque - poderDeDefesa) / 2;
 } else if (poderDeAtaque <= poderDeDefesa) {
   dano = 0;
 }
 
-pontosDeVida = pontosDeVida - dano;
-alert(`O dano causado foi de: ${dano}\n
-Pokémon de ataque:\n
+pontosDeVida -= dano;
+
+alert(
+  `O ${personagemDeAtaque} causou ${dano} de dano no ${personagemDeDefesa}:\n`
+);
+alert(`Pokémon de ataque:\n
 Nome: ${personagemDeAtaque}\n
 Poder de Ataque: ${poderDeAtaque}\n
 
