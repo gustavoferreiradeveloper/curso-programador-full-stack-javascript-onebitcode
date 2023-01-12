@@ -20,7 +20,7 @@ const metros = parseFloat(
 );
 
 let unidadeDeMedida =
-  prompt(`Escolha a unidade de medida que gostaria de converter o valor digitado: \n
+  prompt(`Escolha a unidade de medida que gostaria de converter o valor digitado: (Digite apenas a sigla) \n
 Milímetro (mm)\n
 Centímetro (cm)\n
 Decímetro (dm)\n
