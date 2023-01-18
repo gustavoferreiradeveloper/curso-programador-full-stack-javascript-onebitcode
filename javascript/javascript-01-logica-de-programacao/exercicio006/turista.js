@@ -11,7 +11,7 @@ let continuar = prompt("Você visitou alguma cidade? (Sim / Não)");
 
 while (continuar === "sim" || continuar === "Sim") {
   let cidade = prompt("Qual o nome da cidade visitada?");
-  cidades += `-${cidade} \n`;
+  cidades += `- ${cidade} \n`;
   contagem++;
   continuar = prompt("Você visitou mais alguma cidade? (Sim / Não)");
 }
